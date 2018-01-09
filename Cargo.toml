@@ -1,0 +1,12 @@
+[package]
+name = "netcheck"
+version = "0.1.0"
+authors = ["Sam Crow <scrow@eng.ucsd.edu>"]
+
+[dependencies]
+tokio-core = "^0.1.12"
+tokio-ping = "^0.1.0"
+tokio-timer = "^0.1.2"
+futures = "^0.1.17"
+rusqlite = "^0.13.0"
+chrono = "^0.4.0"
